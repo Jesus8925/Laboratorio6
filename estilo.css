@@ -1,3 +1,47 @@
-body{
-  background: blue;
+/* Fondo de la página */
+body {
+    background: #302b63;
+    color: #ecf0f1; /* Texto en gris claro para mejor contraste */
+}
+
+/* Estilo para títulos */
+h1 {
+    color: #f1c40f;
+}
+
+/* Personalización de botones */
+.btn-primary {
+    background-color: #3498db;
+    border-color: #2980b9;
+}
+
+.btn-primary:hover {
+    background-color: #1d6fa5;
+    border-color: #145a8a;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Caja del colapso horizontal */
+.collapse-horizontal .card-body {
+    background: #4a90e2; /* Azul más vibrante */
+    color: white;
+    border-radius: 8px;
+}
+
+/* Estilos del carrusel */
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+/* Estilo de la alerta */
+.alert-warning {
+    background-color: #f1c40f;
+    color: #302b63;
+    font-weight: bold;
+    border-radius: 10px;
 }
